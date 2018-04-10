@@ -1,0 +1,170 @@
+header, .footer, div {
+  padding:15px;
+}
+
+@media screen and ( min-width: 800px ){
+
+header{
+  height:10vh;
+  background-color: skyblue;
+  margin:.3%;
+  border-color:black;
+  border-style: solid;
+  border-width:1px;
+}
+
+div {
+  background-color: skyblue;
+  margin:.3%;
+  border-color:black;
+  border-style: solid;
+  border-width:1px;
+}
+
+.fullH{
+  height:100vh;
+}
+
+.halfH{
+  height:50vh;
+}
+
+.quarterH{
+  height:25vh;
+}
+
+/* H-W */
+
+.sixthW{
+  width:16.05%;
+  float:left;
+  height:100%;
+}
+
+.thirdW{
+  width:32.73%;
+  float:left;
+  height:100%;
+}
+
+.halfW{
+  width:49.4%;
+  float:left;
+  height:100%;
+}
+
+.fullW{
+  width:99.4%;
+  float:left;
+  height:100%;
+}
+
+.five6W{
+  width:82.73%;
+  float:left;
+  height:100%;
+}
+
+.two3W{
+  width:66.06%;
+  float:left;
+  height:100%;
+}
+
+.footer{
+  height:10vh;
+  background-color: skyblue;
+  margin:.3%;
+  clear: both;
+  border-color:black;
+  border-style: solid;
+  border-width:1px;
+}
+
+}
+/* end @media fullScreen */
+/* //////////////////////////////////////////////////// */
+/* start mobile */
+/* //////////////////////////////////////////////////// */
+
+@media screen and ( max-width: 799px ){
+
+header{
+  height:10vh;
+  background-color: rgb(111, 197, 231);
+  margin:.3%;
+  border-color:black;
+  border-style: solid;
+  border-width:1px;
+}
+
+div {
+  background-color: rgb(111, 197, 231);
+  margin:.3%;
+  border-color:black;
+  border-style: solid;
+  border-width:1px;
+}
+
+.fullH{
+  height:100vh;
+}
+
+.halfH{
+  height:50vh;
+}
+
+.quarterH{
+  height:25vh;
+}
+
+/* H-W */
+
+/* halved in size to stack */
+.sixthW{
+  width:32.73%;
+  float:left;
+  height:100%;
+}
+
+.thirdW{
+  width:32.73%;
+  float:left;
+  height:100%;
+}
+
+.halfW{
+  width:49.4%;
+  float:left;
+  height:100%;
+}
+
+.fullW{
+  width:99.4%;
+  float:left;
+  height:100%;
+}
+
+.five6W{
+  width:66.06%;
+  float:left;
+  height:100%;
+}
+
+.two3W{
+  width:66.06%;
+  float:left;
+  height:100%;
+}
+
+.footer{
+  height:10vh;
+  background-color: rgb(111, 197, 231);
+  margin-top:.3%;
+  clear: both;
+  border-color:black;
+  border-style: solid;
+  border-width:1px;
+}
+
+}
