@@ -47,6 +47,12 @@ div {
   height:100%;
 }
 
+.thirdW2{
+  width:32.73%;
+  float:left;
+  height:100%;
+}
+
 .halfW{
   width:49.4%;
   float:left;
@@ -128,7 +134,13 @@ div {
 }
 
 .thirdW{
-  width:32.73%;
+  width:99.4%;
+  float:left;
+  height:100%;
+}
+
+.thirdW2{
+  width:66.06%;
   float:left;
   height:100%;
 }
@@ -152,7 +164,7 @@ div {
 }
 
 .two3W{
-  width:66.06%;
+  width:99.4%;
   float:left;
   height:100%;
 }
