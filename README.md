@@ -14,6 +14,8 @@ Sections come in three sizes: full, half, and quarter.
 div widths go into sections of any height, and are placed in sets of classes that == 100%,
 which allows for a harmonious snap point based on media size.
 
+## Use
+Just clone the repo, and open index.html in the browser.
 
 ![full](https://github.com/jasonb315/grid-template/blob/master/screenshots/grid_full.png) <br>
 ![half](https://github.com/jasonb315/grid-template/blob/master/screenshots/grid_half.png) <br>
